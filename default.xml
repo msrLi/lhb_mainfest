@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
     <remote name="msrLi" fetch="git@github.com:msrLi/ubutnu-script.git" />
-    <default remote="msrLi" revision="master"/>
+    <default remote="msrLi" revision="origin"/>
     <project path="ubutnu-script" name="ubutnu-script"/>
 </manifest>
