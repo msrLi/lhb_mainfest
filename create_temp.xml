@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<manifest>
-    <remote name="origin" fetch="https://github.com/msrLi/" />
-    <default remote="origin" revision="master"/>
-    <project path="makerules" name="utils-tools"/>
-        <linkfile dest="Makefile" src="makerules/makerules/Makefile.mk" />
-</manifest>
