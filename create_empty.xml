@@ -5,4 +5,8 @@
     <project path="makerules" name="utils-tools" >
         <linkfile dest="Makefile" src="Makefile.mk"/>
     </project>
+    <project path="target" name="target_base" >
+        <!-- <copyfile dest="target/Makefile" src="makerules/MakefileTarget.mk"/> -->
+        <linkfile dest="target/Makefile" src="makerules/MakefileTarget.mk"/>
+    </project>
 </manifest>
