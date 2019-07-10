@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest>
+    <remote name="NiklasWang" fetch="https://github.com/NiklasWang/" />
+    <default remote="NiklasWang" revision="master"/>
+    <project path="ubutnu-script" name="Uranium"/>
+</manifest>
