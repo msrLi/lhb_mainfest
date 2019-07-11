@@ -4,6 +4,7 @@
     <default remote="origin" revision="master"/>
     <project path="makerules" name="utils-tools" >
         <linkfile dest="Makefile" src="Makefile.mk"/>
+        <linkfile dest="env.mk"  src="env.mk"/>
     </project>
     <project path="target" name="target_base" >
         <!-- <copyfile dest="target/Makefile" src="makerules/MakefileTarget.mk"/> -->
