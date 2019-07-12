@@ -15,4 +15,8 @@
         <!-- <copyfile dest="target/Makefile" src="makerules/MakefileTarget.mk"/> -->
         <linkfile dest="target/Makefile" src="makerules/MakefileTarget.mk"/>
     </project>
+
+    <project path="common_lib" name="commonSourcesC" >
+    </project>
+
 </manifest>
