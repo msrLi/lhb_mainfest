@@ -9,14 +9,14 @@
         <linkfile dest="env.mk"  src="env.mk"/>
     </project>
 
-    <project path="externals" name="portingSources"/>
+    <!-- <project path="externals" name="portingSources"/> -->
 
     <project path="target" name="target_base" >
         <!-- <copyfile dest="target/Makefile" src="makerules/MakefileTarget.mk"/> -->
         <linkfile dest="target/Makefile" src="makerules/MakefileTarget.mk"/>
     </project>
 
-    <project path="common_lib" name="commonSourcesC" >
+    <project path="common_libs" name="commonSourcesC" >
     </project>
 
 </manifest>
