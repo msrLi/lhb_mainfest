@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest>
+    <remote name="origin" fetch="https://github.com/msrLi/"/>
+
+    <default remote="origin" revision="master"/>
+
+    <project path="makerules" name="utils-tools" >
+        <linkfile dest="Makefile" src="Makefile.mk"/>
+        <linkfile dest="env.mk"  src="env.mk"/>
+    </project>
+
+    <!-- <project path="externals" name="portingSources"/> -->
+
+    <project path="target" name="target_base" >
+        <!-- <copyfile dest="target/Makefile" src="makerules/MakefileTarget.mk"/> -->
+        <linkfile dest="target/Makefile" src="makerules/MakefileTarget.mk"/>
+    </project>
+
+    <project path="common_libs" name="commonSourcesC" >
+    </project>
+
+</manifest>
