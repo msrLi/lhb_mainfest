@@ -16,6 +16,13 @@
         <linkfile dest="target/Makefile" src="makerules/MakefileTarget.mk"/>
     </project>
 
+    <project path="target/rt-thread" name="rt-thread" >
+        <!-- linkfile dest="target/rt-thread/bsp/stm32/stm32f407-ejd" src="target/rt-thread/ejd_soruce/" /> -->
+    </project>
+    
+    <project path="target/rt-thread/bsp/stm32/stm32f407-ejd" name="EJD_Source-Rt_thread" >
+    </project>
+
     <!-- project path="common_libs" name="commonSourcesC" >
     </project> -->
 
