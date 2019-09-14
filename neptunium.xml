@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest>
+    <remote name="origin" fetch="https://github.com/msrLi/"/>
+    <remote name="binson" fetch="https://huibinli@bitbucket.org/huibinli/" />
+
+    <default remote="origin" revision="master"/>
+
+    <project path="makerules" name="utils-tools" >
+        <linkfile dest="Makefile" src="Makefile.mk"/>
+        <linkfile dest="env.mk"  src="env.mk"/>
+    </project>
+
+    <!-- <project path="externals" name="portingSources"/> -->
+
+    <project path="target" name="Neptunium" >
+        <!-- <copyfile dest="target/Makefile" src="makerules/MakefileTarget.mk"/> -->
+        <!-- linkfile dest="target/Makefile" src="makerules/MakefileTarget.mk"/>  -->
+    </project>
+
+    <!--
+    <project path="target/rt-thread" name="rt-thread" >
+        <linkfile dest="target/rt-thread/bsp/stm32/stm32f407-ejd" src="target/rt-thread/ejd_soruce/" /> 
+    </project>
+    -->
+
+    <project remote="origin" revision="master" path="target/rt-thread/bsp/stm32/stm32f407-ejd" name="EJD_Source-Rt_thread" >
+    </project>
+
+    <!-- project path="common_libs" name="commonSourcesC" >
+    </project> -->
+
+</manifest>
