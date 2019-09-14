@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
     <remote name="origin" fetch="https://github.com/msrLi/"/>
+    <remote name="binson" fetch="https://huibinli@bitbucket.org/huibinli/" />
 
     <default remote="origin" revision="master"/>
 
@@ -20,7 +21,7 @@
         <!-- linkfile dest="target/rt-thread/bsp/stm32/stm32f407-ejd" src="target/rt-thread/ejd_soruce/" /> -->
     </project>
     
-    <project path="target/rt-thread/bsp/stm32/stm32f407-ejd" name="EJD_Source-Rt_thread" >
+    <project remote="origin" revision="master" path="target/rt-thread/bsp/stm32/stm32f407-ejd" name="EJD_Source-Rt_thread" >
     </project>
 
     <!-- project path="common_libs" name="commonSourcesC" >
