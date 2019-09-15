@@ -26,3 +26,9 @@
    * `         编译脚本和工具脚本文件`
 * ejd_thread.xml
 
+* neptunium.xml
+     *` 下载同步  repo init -u git@github.com:msrLi/lhb_mainfest.git -m neptunium.xml ；  repo sync`
+     * `--> target    [target_base | git@github.com:msrLi/target_base.git]`
+     * `              target 基础框架代码`
+     * `--> makerules [utils-tools | git@github.com:msrLi/utils-tools.git]`
+     * `         编译脚本和工具脚本文件`
