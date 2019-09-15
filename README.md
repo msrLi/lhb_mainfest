@@ -11,7 +11,7 @@
 ### 下载程序：
 * 1.下载空的框架代码
 * a.下载代码信息文件
-    repo init -u git@github.com:msrLi/lhb_mainfest.git -m create_empty.xml      
+    repo init -u git@github.com:msrLi/lhb_mainfest.git -m [ create_empty.xml   or   ejd_thread.xml or neptunium.xml ] 
 * b.同步代码
     repo sync [-j8] 
 
