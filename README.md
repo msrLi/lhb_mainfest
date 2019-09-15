@@ -29,9 +29,9 @@
 * neptunium.xml
      * ` 下载同步  
               step1:  
-                  repo init -u git@github.com:msrLi/lhb_mainfest.git -m neptunium.xml  
+                    repo init -u git@github.com:msrLi/lhb_mainfest.git -m neptunium.xml  
               step2:  
-                  repo sync`
+                    repo sync
      * `--> target    [target_base | git@github.com:msrLi/neptunium.git]`
      * `              target 基础框架代码`
      * `--> makerules [utils-tools | git@github.com:msrLi/utils-tools.git]`
